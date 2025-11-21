@@ -158,9 +158,18 @@ time.sleep(7)
 choices = (first_result, second_result, third_result)
 
 if choices.count("positiv") == 3:
-    print("Teamet gjenoppretter tillit og går videre til norming-fasen.")
+    print("\n--------------------------------------------------------------------")
+    print("\nValgene du har tatt har ført til:")
+    print("\nTeamet gjenoppretter tillit og går videre til norming-fasen.")
+    print("\n--------------------------------------------------------------------")
 elif choices.count("negativ") == 3:
-    print("Prosjektet mister samhold og forsinkes.")
+    print("\n--------------------------------------------------------------------")
+    print("\nValgene du har tatt har ført til:")
+    print("\nProsjektet mister samhold og forsinkes.")
+    print("\n--------------------------------------------------------------------")
 else:
+    print("\n--------------------------------------------------------------------")
+    print("\nValgene du har tatt har ført til:")
     print("Konflikten løses delvis, men relasjonene er fortsatt sårbare.")
+    print("\n--------------------------------------------------------------------")
 
