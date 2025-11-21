@@ -95,10 +95,10 @@ print("De ulike valgene du har tatt som prosjektleder vil ha konsekvenser for sl
 
 if (Choice1 == "A" and Choice3 == "A" and choice4 == "B"):
     print("Gratulerer! Dine valg har ført til et vellykket prosjekt med høy motivasjon og gode relasjoner i teamet. Teamet gjenoppretter tillit og går videre til norming-fasen")
-elif (Choice1 == "B" or Choice2 == "A" or Choice3 == "B" or choice4 == "A"):
-    print("Dine valg har ført til utfordringer i prosjektet og lav motivasjon i teamet. Konflikten løses delvis, men relasjonene er fortsatt sårbare.")
-else:
+elif (Choice1 == "B" and Choice3 == "B" and choice4 == "A"):
     print("Dine valg har ført til at teamet mister samhold og forsinkes.")
+else:
+    print("Dine valg har ført til utfordringer i prosjektet og lav motivasjon i teamet. Konflikten løses delvis, men relasjonene er fortsatt sårbare.")
     
     
 print("------------------------------------------------------------------------------------------------------------------------------------------------")   
